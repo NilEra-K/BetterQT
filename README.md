@@ -1,0 +1,2 @@
+# BetterQT
+Better QT
