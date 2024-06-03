@@ -18,7 +18,16 @@ HEADERS += \
 FORMS += \
     hellocosbrowser.ui
 
+RC_ICONS = images/test.ico
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    images/test.ico
+    images/NewTGG.png
+
+RESOURCES += \
+    res.qrc
